@@ -1,0 +1,202 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Full width wrappers aligning background color with viewport. */
+
+.full-width-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    background-color: #1f2937;
+}
+
+.grey {
+    background-color: #e5e7eb;
+}
+
+
+header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    min-width: 1000px;
+}
+
+.header-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 16px;
+}
+
+.header-section1 ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.header-section1 li {
+    flex-direction: row;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-section2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.header-text {
+   max-width: 400px;
+}
+
+.header-text h1 {
+    padding-bottom: 6px;
+    font-size: 49px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-text p {
+    padding-bottom: 6px;
+}
+
+.header-text button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 900;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Main - Horitzontal aligned boxes */
+
+.main {
+    max-width: 900px;
+    min-width: 900px;
+}
+
+.main h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.links img {
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.header-section {
+
+}
+
+.links {
+    
+}
+
+.quote {
+    max-width: 860px;
+    min-width: 860px;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 100px;
+}
+
+.quote .name {
+    font-weight: bold;
+    text-align: right;
+}
+
+.action {
+    max-width: 1000px;
+    min-width: 1000px;
+    background-color: #3882F6;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 60px 120px;
+    color: white;
+    font-size:18px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.action h1 {
+    font-size: 26px;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 60px;
+}
+
+button {
+    width: 140px;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    padding: 8px 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    vertical-align: baseline;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+}
